@@ -12,7 +12,7 @@
  </head>
  <body>
   <form:form modelAttribute="inputModel" action="inputSend" method="post">
-   <form:errors path="*" />
+   <form:errors path="*" element="div" />
    <form:label path="name">名前:</form:label><form:input path="name" size="40" /><br>
    <form:label path="age">年齢:</form:label><form:input path="age" size="5" cssErrorClass="error" /><br>
    <input type="submit" value="送信">
